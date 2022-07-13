@@ -740,12 +740,12 @@ line-height: 1.71;
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-.input{
+/*-- .input{
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
-}
+} --*/
 .submit-button{
     display: flex;
     justify-content: center;
