@@ -738,7 +738,7 @@ line-height: 1.71;
     border: 1px solid rgba(255,255,255,.3);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    /*-- width: 358px; --*/
+     width: 358px; 
 }
  .input{
     font-family: inherit;
@@ -746,16 +746,16 @@ line-height: 1.71;
     line-height: 1.15;
     margin: 0;
     width: 358px;
-    
-}
-    
-padding-left: 10px;
+    padding-left: 10px;
     height: 50px;
     background: #2f303a;
     color: rgba(255,255,255,.6);
     border: 1px solid rgba(255,255,255,.3);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+    
+
 .submit-button{
     display: flex;
     justify-content: center;
