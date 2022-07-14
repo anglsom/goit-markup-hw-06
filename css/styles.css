@@ -403,18 +403,23 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
     line-height: 1.15;
     margin: 0;
 }
-.modal-form-input:hover,
-.modal-form-input:focus{
-    border: 1px solid var(--accent-color);
-}
 
+.modal-form-input:focus+.modal-form-icon{
+    fill: #18a0fb;
+
+}
+.modal-form-icon:focus+.modal-form-input{
+   ;
+}
+.modal-form-input:focus{
+ border: 1px solid var(--accent-color)
+}
 .check-input:checked+.check-icon {
     background-color: var(--accent-color);
     background-origin: border-box;
     border-color: var(--accent-color);
     fill: var(--primary-white-color);}
     
-
 
  .form-check{
     margin-top: 20px;
@@ -490,6 +495,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
     right: 0;
     left: 0;
 
+}
+.icon-close:hover{
+    fill: var(--accent-color);
 }
 
 /* Section-pr */
@@ -865,27 +873,27 @@ line-height: 1.71;
 .form-input{
     padding-left: 10px;
     height: 50px;
-    background: #2f303a;
+    background: var(--title-text-color);
     color: rgba(255,255,255,.6);
     border: 1px solid rgba(255,255,255,.3);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-     width: 358px; 
+    width: 358px; 
 }
  .input{
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
-    width: 358px;
-    /*-- padding-left: 10px;
+   /*-- width: 358px;
+     padding-left: 10px;
     height: 50px;
     background: #2f303a;
     color: rgba(255,255,255,.6);
     border: 1px solid rgba(255,255,255,.3);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); --*/
-}
+} 
     
 
 .submit-button{
